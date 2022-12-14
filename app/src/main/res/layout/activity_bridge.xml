@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".bridge">
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="101dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Sign Out"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:theme="@style/Theme.AppCompat.Light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/img" />
+
+        <Button
+            android:id="@+id/addItems"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Add Lost Items"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <Button
+            android:id="@+id/addItems2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Add Found Items"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <Button
+            android:id="@+id/viewItems"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="View Lost Items"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <Button
+            android:id="@+id/viewItems2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="View Found Items"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <Button
+            android:id="@+id/myposts"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="My Posts"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+    </LinearLayout>
+</RelativeLayout>
